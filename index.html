@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Store</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>My Store</h1>
+
+<div class="product">
+    <h3>Product 1</h3>
+    <p>₹500</p>
+    <button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<div class="product">
+    <h3>Product 2</h3>
+    <p>₹800</p>
+    <button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<h2>Cart Items: <span id="cart">0</span></h2>
+
+<script>
+    let count = 0;
+
+    function addToCart() {
+        count++;
+        document.getElementById("cart").innerText = count;
+    }
+</script>
+
+</body>
+</html>
