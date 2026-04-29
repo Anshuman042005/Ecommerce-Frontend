@@ -7,6 +7,8 @@ This is a basic frontend e-commerce website built using HTML, CSS, and JavaScrip
 ## 📌 Overview
 A beginner-friendly project demonstrating how an online store works with product listings and cart updates using JavaScript.
 
+This project showcases basic frontend development and user interaction in an e-commerce setting.
+
 ---
 
 ## 🚀 Features
@@ -32,6 +34,20 @@ A beginner-friendly project demonstrating how an online store works with product
 ---
 
 ## 📁 Project Structure
-```text id="3r6g4d"
-Ecommerce-Frontend/
- └── index.html
+
+Ecommerce-Frontend/  
+ ├── index.html  
+ └── README.md  
+
+---
+
+## 💡 Learning Outcomes
+- Basics of frontend development  
+- DOM manipulation using JavaScript  
+- Event handling (button clicks)  
+- Understanding simple e-commerce flow  
+
+---
+
+## 👨‍💻 Author
+Anshuman Sikdar
